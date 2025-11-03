@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     max-width: 18.75rem;
     width: 100%;
-    min-width: auto;
+    min-width: 300px;
     height: auto;
     background-color:#1f1f1f;
     padding: 30px 30px 35px 30px;
