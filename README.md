@@ -15,7 +15,7 @@ The challenge was about creating a social-media-links page and using hover state
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Here's the link to the site](https://social-media-links-rai.netlify.app/)
 
 ## My process
 
