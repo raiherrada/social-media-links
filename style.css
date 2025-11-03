@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #141414;
     display: flex;
@@ -19,7 +25,7 @@ body{
     background-color:#1f1f1f;
     padding: 30px 30px 35px 30px;
     border-radius: 20px;
-    justify-content:start;
+    justify-content:center;
     align-items: center;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
