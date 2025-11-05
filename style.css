@@ -103,10 +103,9 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    max-width: 18.75rem;
+    max-width: 26.25rem; /* around 420px max for desktop */
+    min-width: 21.25rem; /* on small screens, the card shrinks down but never below 340px */
     width: 100%;
-    min-width: 300px;
-    height: 540px;
     background-color:#1f1f1f;
     padding: 30px 30px 35px 30px;
     border-radius: 20px;
