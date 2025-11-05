@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "inter";
+    src: url("fonts/inter400.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "inter";
+    src: url("fonts/inter600.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "inter";
+    src: url("fonts/inter700.woff2") format("woff2");
+}
+
 body{
     background-color: #141414;
     display: flex;
@@ -49,7 +73,7 @@ body{
 .card li a{
     font-size: 15px;
     display: block;
-    font-family: 'Inter', 'Courier New', Courier, monospace;
+    font-family: 'inter', 'Courier New', Courier, monospace;
     height: 50px;
     width: 100%;
     margin: 15px 0px;
@@ -70,8 +94,8 @@ body{
 
 h1{
     color: #ffffff;
-    font-family: 'Inter', 'Courier New', Courier, monospace;
-    font-weight: 600;
+    font-family: 'inter', 'Courier New', Courier, monospace;
+    font-weight: 700;
     text-align: center;
     font-size: 25px;
     margin-bottom: 5px;
@@ -80,7 +104,7 @@ h1{
 
 h2{
     color:#c5f82aff;
-    font-family: 'Inter', 'Courier New', Courier, monospace;
+    font-family: 'inter', 'Courier New', Courier, monospace;
     font-weight: 600;
     text-align: center;
     font-size: 15px;
@@ -89,11 +113,11 @@ h2{
 
 p{
     color: #c8c8c8;
-    font-family: 'Inter', 'Courier New', Courier, monospace;
+    font-family: 'inter', 'Courier New', Courier, monospace;
     font-weight: 400;
     text-align: center;
     font-size: 10px;
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
